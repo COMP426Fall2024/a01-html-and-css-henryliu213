@@ -1,0 +1,57 @@
+body {
+    background:#DAF7A6;
+    font-size: 28pt;
+    font-family: Arial;
+  }
+
+ol li{
+
+    font-size: 20pt;
+    font-family:Lucida Sans;
+}
+
+.tooltipimg .tooltiptext {
+    position: absolute;
+    left:45%;
+    visibility: hidden;
+    background-color: white;
+    color:black;
+    font-size: 15pt;
+}
+.tooltipimg:hover .tooltiptext{
+    visibility: visible;
+    background: red;
+}
+
+
+#table1{
+    border-color: red;
+    border-style: solid; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    & td, th{
+        padding-right: 20px;
+    }
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+}
+
+button{
+    padding: 15px 32px;
+    background-color:#f7a6ca
+}
+h1{
+    text-align: center;
+}
+
+select{
+    background-color: #53a6ca;
+    padding: 15px 40px;
+}
