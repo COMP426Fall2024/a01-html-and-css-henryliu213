@@ -14,7 +14,7 @@ ol li{
     margin-left: auto;
     margin-right: auto;
     font-size: 20pt;
-    font-family:Lucida Sans;
+    font-family: "Lucida Sans";
     text-align: center;
 }
 
@@ -35,7 +35,7 @@ ol li{
 #table1{
     border-color: black;
     border-style: solid; 
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
