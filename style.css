@@ -26,11 +26,24 @@ ol li{
     color:black;
     font-size: 15pt;
 }
-.tooltipimg:hover .tooltiptext{
-    visibility: visible;
-    background: #293D;
+
+
+.column .tooltiptext {
+    position: absolute;
+    visibility: hidden;
+    background-color: white;
+    color:black;
+    font-size: 15pt;
 }
 
+.tooltipimg:hover .tooltiptext{
+    visibility: visible;
+    background: #293;
+}
+.column:hover .tooltiptext{
+    visibility: visible;
+    background: #293;
+}
 
 #table1{
     border-color: black;
@@ -77,11 +90,25 @@ div{
 
 .third{
     margin:auto;
-    margin-top: 20%;
+    margin-top: 10%;
     
 }
 .hyper{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+
+.column {
+    float: left;
+    width: 32%;
+    height: auto;
+    padding: 0.5%;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
