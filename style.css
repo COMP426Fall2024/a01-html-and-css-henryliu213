@@ -20,14 +20,15 @@ ol li{
 
 .tooltipimg .tooltiptext {
     position: absolute;
-    left:45%;
     visibility: hidden;
     background-color: white;
     color:black;
     font-size: 15pt;
 }
 
-
+#need{
+    left:45%;
+}
 .column .tooltiptext {
     position: absolute;
     visibility: hidden;
